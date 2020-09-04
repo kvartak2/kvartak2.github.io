@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #687882fa;
 					display: block;
 					padding: 0;
 				}
@@ -3314,3 +3314,67 @@ input, select, textarea {
 			}
 
 	}
+	.experience-icon {
+		display: inline-block;
+		padding: 20px;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.focus {
+		/* opacity: 0.6; */
+		transition: opacity .25s ease-in-out;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+	}
+	.project-icon {
+		width: 200px;
+		height: 100px;
+	}
+	.img-circle {
+		border-radius: 50%;
+	}
+
+
+
+
+
+
+
+
+
+
+	.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
