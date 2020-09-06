@@ -186,7 +186,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px #f4f4f4;
-		margin: 2.25em 0;
+		margin: 1em 0;
 	}
 
 		hr.major {
@@ -2742,7 +2742,7 @@ input, select, textarea {
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 10em;
 			}
 
 			#header > header h1 {
@@ -2903,7 +2903,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 2em 0;
 			}
 
 	}
@@ -3321,17 +3321,16 @@ input, select, textarea {
 		margin-top: 10px;
 	}
 	.focus {
-		/* opacity: 0.6; */
 		transition: opacity .25s ease-in-out;
 		-moz-transition: opacity .25s ease-in-out;
 		-webkit-transition: opacity .25s ease-in-out;
 	}
 	.project-icon {
-		width: 200px;
-		height: 100px;
+		width: 185px;
+		height: 80px;
 	}
 	.img-circle {
-		border-radius: 50%;
+		/* border-radius: 50%; */
 	}
 
 
@@ -3342,39 +3341,62 @@ input, select, textarea {
 
 
 
-
-	.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+.skills {
+	margin-bottom: 10%;
+}
+.skill-ind {
+	padding-bottom: 5px;
+}
+.skill-info {
+	padding-bottom: 15px;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+
+
+
+
+
+
+
+
+
+
+
+.column {
+	float: left;
+	width: 33%;
+	padding: 0 10px;
+  }
   
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+  
+  /* Style the counter cards */
+  .card {
+	
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+	padding: 16px;
+	text-align: center;
+	background-color: #ffffff;
+  }
 
 
 
-
-
-
-
-
-
+  .major {
+	  padding-bottom: 8px;
+  }
